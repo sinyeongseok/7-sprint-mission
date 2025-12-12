@@ -1,5 +1,5 @@
 import { prisma } from "../../../../prisma/prisma.js";
-import { BadRequestError } from "../../../errors/coustomErrors.js";
+import { BadRequestError } from "../../../errors/customErrors.js";
 import {
   buildCursorWhere,
   createContinuationToken,

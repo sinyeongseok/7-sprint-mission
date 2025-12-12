@@ -1,4 +1,4 @@
-import { BadRequestError } from "../../../errors/coustomErrors.js";
+import { BadRequestError } from "../../../errors/customErrors.js";
 import { validateCreateAt } from "../../../utils/validateCreatedAt.js";
 import { validateStringId } from "../../../utils/validateStringId.js";
 

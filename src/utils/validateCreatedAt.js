@@ -1,4 +1,4 @@
-import { BadRequestError } from "../errors/coustomErrors.js";
+import { BadRequestError } from "../errors/customErrors.js";
 
 export const validateCreateAt = (createdAt) => {
   if (new Date("2024-01-01") > createdAt) {

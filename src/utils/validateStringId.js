@@ -1,4 +1,4 @@
-import { BadRequestError } from "../errors/coustomErrors.js";
+import { BadRequestError } from "../errors/customErrors.js";
 
 export const validateStringId = (id) => {
   if (typeof id !== "string") {
