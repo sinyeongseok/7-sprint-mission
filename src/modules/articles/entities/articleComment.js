@@ -24,12 +24,12 @@ export class ArticleComment {
     this.articleId = articleId;
   }
 
-  static fromEntity({ id, content, createdAt, articleId }) {
+  static fromEntity({ id, content, created_at, article_id }) {
     const info = {
       id: id.toString(),
       content,
-      created_at: createdAt,
-      article_id: articleId,
+      createdAt: created_at,
+      articleId: article_id,
     };
 
     validateArticleCommentInfo(info);
