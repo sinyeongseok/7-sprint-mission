@@ -21,7 +21,7 @@ export const deleteArticle = async (req, res, next) => {
 
     res.status(200).json({
       success: true,
-      massage: "게시글이 삭제되었습니다.",
+      message: "게시글이 삭제되었습니다.",
       data: deletedArticle,
     });
   } catch (error) {
